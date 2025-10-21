@@ -6,9 +6,9 @@ We will use a top-down approach to review the entities which make up ContextOne.
 #### 1 Workflow
 A workflow is a general end-to-end process, comprised of one or more tasks, in order to achieve a given function or purpose within or by ContextOne. More often than not, a user will be creating workflow(s) by first creating all the necessary components (i.e. tasks, tools, prompts, schemas) and weaving them together to form a complete process. However, there are also subtle workflows that are defined by the system with which the user may interact without necessarily realizing they are interacting with a workflow (e.g Structured Query Builder, Chat, etc.)
 
-<img src="./documentation/images/workflow_diagram.png" alt="Alt text" width="400">
+<img src="documentation/images/workflow_diagram.png" alt="Alt text" width="400">
 
-![image](./documentation/images/workflow_diagram.png)
+![image](documentation/images/workflow_diagram.png)
 
 
 #### 2 Task 
