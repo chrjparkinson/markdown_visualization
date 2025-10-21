@@ -5,10 +5,10 @@ We will use a top-down approach to review the entities which make up ContextOne.
 
 #### 1 Workflow
 A workflow is a general end-to-end process, comprised of one or more tasks, in order to achieve a given function or purpose within or by ContextOne. More often than not, a user will be creating workflow(s) by first creating all the necessary components (i.e. tasks, tools, prompts, schemas) and weaving them together to form a complete process. However, there are also subtle workflows that are defined by the system with which the user may interact without necessarily realizing they are interacting with a workflow (e.g Structured Query Builder, Chat, etc.)
-<p align="center">
+<figure align="center">
   <img src="documentation/images/workflow_diagram.png" alt="Workflow Diagram" width="500">
-  <em>Workflow Diagram</em>
-</p>
+  <figcaption><em>Workflow Diagram</em></figcaption>
+</figure>
 
 #### 2 Task 
 A task is a unit / top-level item within a workflow. Tasks connect to each other with inputs/outputs. All tasks have 0 or 1 input schemas, and 1 or more output schemas. Different output schemas usual reflect different task results, for example, a BookFlight task might have a BookFlightSuccess schema with confirmation number, flight time, and seat, and BookFlightFailed schema might have an errorMessage / failureCode. If necessary, mappings  can be applied between tasks to convert the output of one task to match the expected input of the subsequent tasl. All tasks also have a name/description.
