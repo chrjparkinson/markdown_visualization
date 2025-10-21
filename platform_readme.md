@@ -7,6 +7,7 @@ We will use a top-down approach to review the entities which make up ContextOne.
 A workflow is a general end-to-end process, comprised of one or more tasks, in order to achieve a given function or purpose within or by ContextOne. More often than not, a user will be creating workflow(s) by first creating all the necessary components (i.e. tasks, tools, prompts, schemas) and weaving them together to form a complete process. However, there are also subtle workflows that are defined by the system with which the user may interact without necessarily realizing they are interacting with a workflow (e.g Structured Query Builder, Chat, etc.)
 <p align="center">
   <img src="documentation/images/workflow_diagram.png" alt="Workflow Diagram" width="500">
+  <em>Workflow Diagram</em>
 </p>
 
 #### 2 Task 
@@ -21,9 +22,11 @@ A task is a unit / top-level item within a workflow. Tasks connect to each other
 
 <p align="center">
   <img src="documentation/images/task_umbrella.png" alt="Task Umbrella (i.e. how do these tasks appear in the platform?)" width="500">
+  <em>Task Umbrella (i.e. how do these tasks appear in the platform?)</em>
 </p>
 <p align="center">
   <img src="documentation/images/task_hierarchy.png" alt="Task Hierarchy (i.e. how are these tasks truly related?)" width="500">
+  <em>Task Hierarchy (i.e. how are these tasks truly related?)</em>
 </p>
 
 ##### 2.1 Human Tasks
@@ -36,6 +39,7 @@ If a workflow triggers a human task, they appear in the task inbox as below. Thi
 
 <p align="center">
   <img src="documentation/images/task_inbox_example.png" alt="Task Inbox Example" width="500">
+  <em>Task Inbox Example</em>
 </p>
 
 ##### 2.2 AI Agent Task
